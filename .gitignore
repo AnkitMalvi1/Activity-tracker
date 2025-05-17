@@ -1,0 +1,68 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+/dist/
+/build/
+/out/
+/release/
+/app-release/
+
+# Electron packaging outputs
+*.asar
+*.dmg
+*.exe
+*.app
+*.deb
+*.snap
+*.rpm
+*.msi
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Electron cache
+.cache/
+
+# Compiled binaries / temp
+*.log
+*.tsbuildinfo
+tmp/
+temp/
+
+# Optional: TypeScript
+dist-ts/
+*.tsbuildinfo
+
+# Optional: Electron-builder
+/builds/
+electron-builder.yaml
+electron-builder.json
+
+# Optional: if using webpack
+webpack-stats.json
+
+# Activity tracking data
+/data/*.json
+/data/

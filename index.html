@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'"
+    />
+    <title>Activity Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="status-container">
+      <section class="mouse-metrics">
+        <h3>Mouse Activity</h3>
+        <div class="status-item">
+          Left Clicks <span id="clickCount">0</span>
+        </div>
+        <div class="status-item">
+          Right Clicks <span id="rightClickCount">0</span>
+        </div>
+        <div class="status-item">
+          Double Clicks <span id="doubleClickCount">0</span>
+        </div>
+      </section>
+
+      <section class="keyboard-metrics">
+        <h3>Keyboard Activity</h3>
+        <div class="status-item">
+          Keys Pressed <span id="keyCount">0</span>
+        </div>
+        <div class="status-item">
+          Active Combination <span id="keyCombination">-</span>
+        </div>
+      </section>
+
+      <section class="general-metrics">
+        <h3>General Activity</h3>
+        <div class="status-item">
+          Scrolls <span id="scrollCount">0</span>
+        </div>
+        <div class="status-item">
+          Current Window <span id="currentWindow">-</span>
+        </div>
+        <div class="status-item">
+          Last Activity <span id="lastActivity">-</span>
+        </div>
+      </section>
+    </div>
+
+    <div class="scroll-container">
+      <div class="scroll-content">
+        <h2>Activity Tracker</h2>
+        <p>Track and analyze your computer interactions in real-time with our sophisticated monitoring system.</p>
+        <p>Activity Tracker is a sophisticated desktop application that provides real-time monitoring of your computer interactions. It captures detailed metrics including mouse clicks, keyboard activity, scroll movements, and active window changes. The intuitive interface displays live statistics to help you understand your usage patterns and optimize your workflow.</p>
+        <ul>
+            <li>Welcome to Activity Tracker, a powerful desktop application designed to monitor and analyze your computer interactions in real-time.</li>
+            <li>Features tracked include:
+                <ul>
+                    <li>Mouse clicks (left, right, and double clicks)</li>
+                    <li>Keyboard inputs</li>
+                    <li>Scroll movements</li>
+                    <li>Active window changes</li>
+                </ul>
+            </li>
+            <li>Provides detailed statistics and instant feedback on your computer usage patterns</li>
+            <li>Benefits:
+                <ul>
+                    <li>Productivity analysis</li>
+                    <li>User behavior studies</li>
+                    <li>Workflow optimization</li>
+                </ul>
+            </li>
+            <li>Clean, intuitive interface with live counters and status updates</li>
+            <li>Perfect for developers, researchers, and productivity enthusiasts seeking comprehensive insights into daily computer usage</li>
+        </ul>
+      </div>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>
